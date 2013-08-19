@@ -70,6 +70,8 @@ def match(X, Y):
 
 
 
+# Remember to write a Java version to test
+
 if __name__ == "__main__":
 
     img1 = "data/crans_1_small.jpg"
