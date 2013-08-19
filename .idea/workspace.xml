@@ -5,10 +5,12 @@
     <ignored path="NearDuplicateMatch.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/sift.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376905702532" ignored="false" />
-    <file path="/match.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376907996617" ignored="false" />
+    <file path="/match.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376929979716" ignored="false" />
     <file path="/pca.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376906921531" ignored="false" />
     <file path="/utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376907846358" ignored="false" />
     <file path="$PROJECT_DIR$/../VideoRecognition/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376907582044" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376911598683" ignored="false" />
+    <file path="/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376909523840" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
       <file leaf-file-name="match.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.79250723">
+            <state line="66" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.4973822">
               <folding>
                 <element signature="e#23#34#0" expanded="true" />
               </folding>
@@ -86,7 +88,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
+    <option name="x" value="53" />
     <option name="y" value="22" />
     <option name="width" value="1218" />
     <option name="height" value="778" />
@@ -159,6 +161,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -276,18 +279,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="22" width="1218" height="778" extended-state="6" />
+    <frame x="53" y="22" width="1218" height="778" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25085324" sideWeight="0.5699088" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43009117" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25085324" sideWeight="0.33282673" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66717327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25085324" sideWeight="0.26595744" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39513677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -357,7 +360,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/match.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/match.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -386,7 +401,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="0.79250723">
+        <state line="66" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="0.4973822">
           <folding>
             <element signature="e#23#34#0" expanded="true" />
           </folding>
