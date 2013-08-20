@@ -113,8 +113,6 @@ def plotMatch(im1, im2, locations1, locations2, match):
 
         plot([loc1[0], loc2[0] + width],[loc1[1], loc2[1]],'c')
 
-    plot([0,200], [0,100], 'r--')
-
     axis('off')
     show()
 
