@@ -104,7 +104,7 @@ def plotMatch(im1, im2, locations1, locations2, match):
 
 
     width = im1.shape[1]
-    for m in match:
+    for m in match[::50]:
         i = m[0]
         j = m[1]
 
@@ -121,8 +121,8 @@ def plotMatch(im1, im2, locations1, locations2, match):
 
 if __name__ == "__main__":
 
-    img1 = "data/crans_1_small.jpg"
-    img2 = "data/crans_2_small.jpg"
+    img1 = "data/dramma1.png"
+    img2 = "data/dramma2.png"
 
     image1 = np.array(Image.open(img1).convert("L"))
     image2 = np.array(Image.open(img2).convert("L"))

@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.*;
+import java.lang.Math;
 
 public class match{
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
@@ -20,23 +21,64 @@ public class match{
         double[][] featureTwo = readArray(path2, rowY, column);
 
         // start to match
-        ArrayList<Integer> result1 = match(featureOne, featureTwo, column);
-        ArrayList<Integer> result2 = match(featureTwo, featureOne, column);
+        ArrayList<ArrayList<Integer>> result1 = match(featureOne, featureTwo, column);
+        ArrayList<ArrayList<Integer>> result2 = match(featureTwo, featureOne, column);
 
         PrintWriter writer = new PrintWriter("data/match", "UTF-8");
         for (int i = 0; i < rowX; i ++){
-            if (result2.get(i) == -1)
+            if (result2.get(i).size() == 0)
                 continue;
 
-            if (result1.get(result2.get(i)) == i)
-                writer.println(i +" "+ result2.get(i));
+            // potential stores potential indices
+            ArrayList<Integer> potential = new ArrayList<Integer>();
+            ArrayList<Integer> test = result2.get(i);
+
+            for(int twoIndice: test){
+                if (result1.get(twoIndice).contains(i))
+                    potential.add(twoIndice);
+            }
+
+            if(potential.size() == 0)
+                continue;
+            else if (potential.size() == 1)
+                writer.println(i +" "+ potential.get(0));
+            else{
+                // Select the nearest neighbor
+                int potentialSize = potential.size();
+                double[] distances = new double[potentialSize];
+
+                for (int m = 0; m < potentialSize; m ++){
+                    int n = potential.get(m);
+                    double distance = 0.0;
+
+                    for (int index = 0; index < column; index ++)
+                        distance += Math.pow((featureOne[i][index] - featureTwo[n][index]), 2);
+
+                    distances[m] = distance;
+                }
+
+                double minDistance = distances[0];
+                int minIndice = 0;
+
+                for (int m1 = 1; m1 < potentialSize; m1 ++){
+                    if (minDistance > distances[m1]){
+                        minDistance = distances[m1];
+                        minIndice = m1;
+                    }
+
+                }
+
+                writer.println(i +" "+ potential.get(minIndice));
+
+            }
+
         }
         writer.close();
 
     }
 
 
-    public static ArrayList<Integer> match(double[][] X, double[][] Y, int column){
+    public static ArrayList<ArrayList<Integer>> match(double[][] X, double[][] Y, int column){
 
         ArrayList<Integer>[][] hashStructure = new ArrayList[8][column];
 
@@ -60,7 +102,8 @@ public class match{
         }
 
         // Hash each point of Y one by one
-        ArrayList<Integer> result = new ArrayList<Integer>();
+        ArrayList<ArrayList<Integer>> result = new ArrayList<ArrayList<Integer>>();
+
 
         for(int i = 0; i < rowY; i ++){
             HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
@@ -109,28 +152,20 @@ public class match{
 
             }
 
-            // Find out the best match for points in Y
-            int maxCount = 0;
+            ArrayList<Integer> potential = new ArrayList<Integer>();
             Set<Integer> keys = map.keySet();
             Iterator<Integer> it = keys.iterator();
 
-            int potentialMatch = -1;
             while(it.hasNext()){
                 int key = it.next();
                 int count = map.get(key);
 
-                if(count > maxCount){
-                    maxCount = count;
-                    potentialMatch = key;
+                if (count == 36){
+                    potential.add(key);
                 }
             }
 
-            if(maxCount < 35)
-                result.add(-1);
-            else
-                result.add(potentialMatch);
-
-//            System.out.println("Y[" +i+ "] "+maxCount+" is matched to X[" +result.get(i)+"]");
+            result.add(potential);
         }
 
         return result;
