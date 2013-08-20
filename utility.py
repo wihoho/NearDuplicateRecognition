@@ -1,6 +1,8 @@
 __author__ = 'GongLi'
 
 import numpy as np
+import pickle
+
 
 def normalize(X):
     row = X.shape[0]
@@ -13,3 +15,12 @@ def normalize(X):
         for j in range(column):
             X[i][j] = (X[i][j] - minValues[i]) * 2.0 / (maxValues[i] - minValues[i])
 
+def storeObject(fileName, obj):
+    file = open(fileName, "w")
+    pickle.dump(obj, file)
+    file.close()
+
+def loadObject(fileName):
+    file = open(fileName, "r")
+    obj = pickle.load(file)
+    return obj

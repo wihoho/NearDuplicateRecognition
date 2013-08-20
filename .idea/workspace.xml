@@ -5,12 +5,18 @@
     <ignored path="NearDuplicateMatch.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/sift.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376905702532" ignored="false" />
-    <file path="/match.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376931073349" ignored="false" />
+    <file path="/match.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376991032060" ignored="false" />
     <file path="/pca.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376906921531" ignored="false" />
-    <file path="/utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376907846358" ignored="false" />
-    <file path="$PROJECT_DIR$/../VideoRecognition/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376907582044" ignored="false" />
-    <file path="$PROJECT_DIR$/../VideoRecognition/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376911598683" ignored="false" />
-    <file path="/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376909523840" ignored="false" />
+    <file path="/utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376977813318" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968509475" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968471672" ignored="false" />
+    <file path="/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968471672" ignored="false" />
+    <file path="/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968507981" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/buildHistogram.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376971976898" ignored="false" />
+    <file path="/buildHistogram.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376971976898" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/Utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376979736641" ignored="false" />
+    <file path="/Utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376979734471" ignored="false" />
+    <file path="/readme.md" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376992262546" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,46 +35,7 @@
     <favorites_list name="NearDuplicateMatch" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="match.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/match.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.39873418">
-              <folding>
-                <element signature="e#23#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utility.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utility.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pca.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pca.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="27" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sift.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sift.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -82,13 +49,14 @@
         <option value="$PROJECT_DIR$/pca.py" />
         <option value="$PROJECT_DIR$/utility.py" />
         <option value="$PROJECT_DIR$/match.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
+    <option name="x" value="228" />
     <option name="y" value="22" />
-    <option name="width" value="1224" />
+    <option name="width" value="1220" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -157,11 +125,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -173,8 +141,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Python.match">
@@ -277,18 +245,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="22" width="1224" height="778" extended-state="6" />
-    <editor active="true" />
+    <frame x="228" y="22" width="1220" height="778" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25551784" sideWeight="0.33282673" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66717327" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20954004" sideWeight="0.6048632" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43009117" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25085324" sideWeight="0.26595744" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39513677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39513677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -358,19 +326,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/match.py</url>
-          <line>68</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/match.py</url>
-          <line>60</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -404,6 +360,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/pcafeature1">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="843" column="0" selection-start="26632" selection-end="26632" vertical-scroll-proportion="0.16666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pcafeature1">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/match">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-28.8098" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="0" selection-start="7743" selection-end="7743" vertical-scroll-proportion="8.982709">
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+            <marker date="1373509067000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1373509067000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1373509067000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1373509067000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1373509067000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/crans_1_small.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/temp.sift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pca.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="27" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
@@ -413,24 +430,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
+        <state line="14" column="19" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.39873418">
+        <state line="118" column="10" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.53783786">
           <folding>
             <element signature="e#23#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.032432433">
+          <folding />
         </state>
       </provider>
     </entry>
