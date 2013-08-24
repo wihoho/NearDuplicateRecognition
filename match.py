@@ -121,8 +121,8 @@ def plotMatch(im1, im2, locations1, locations2, match):
 
 if __name__ == "__main__":
 
-    img1 = "data/dramma1.png"
-    img2 = "data/dramma2.png"
+    img1 = "data/crans_1_small.jpg"
+    img2 = "data/crans_2_small.jpg"
 
     image1 = np.array(Image.open(img1).convert("L"))
     image2 = np.array(Image.open(img2).convert("L"))
@@ -144,8 +144,8 @@ if __name__ == "__main__":
     util.normalize(pcaFeatures1)
     util.normalize(pcaFeatures2)
 
-    np.savetxt("data/pcafeature1", pcaFeatures1, delimiter="\t")
-    np.savetxt("data/pcafeature2", pcaFeatures2, delimiter="\t")
+    np.savetxt("pcafeature1", pcaFeatures1, delimiter="\t")
+    np.savetxt("pcafeature2", pcaFeatures2, delimiter="\t")
 
     # interface with Java program to do matching
     rowX = pcaFeatures1.shape[0]

@@ -14,8 +14,8 @@ public class match{
         int rowY = Integer.parseInt(args[1]);
         int column = Integer.parseInt(args[2]);
 
-        String path1 = "data/pcafeature1";
-        String path2 = "data/pcafeature2";
+        String path1 = "pcafeature1";
+        String path2 = "pcafeature2";
 
         double[][] featureOne = readArray(path1, rowX, column);
         double[][] featureTwo = readArray(path2, rowY, column);
@@ -74,7 +74,6 @@ public class match{
 
         }
         writer.close();
-
     }
 
 
