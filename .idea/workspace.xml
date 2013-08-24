@@ -8,21 +8,24 @@
     <file path="/match.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377159615450" ignored="false" />
     <file path="/pca.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376906921531" ignored="false" />
     <file path="/utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376977813318" ignored="false" />
-    <file path="$PROJECT_DIR$/../VideoRecognition/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968509475" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377336714853" ignored="false" />
     <file path="$PROJECT_DIR$/../VideoRecognition/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968471672" ignored="false" />
     <file path="/readme" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968471672" ignored="false" />
-    <file path="/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376968507981" ignored="false" />
-    <file path="$PROJECT_DIR$/../VideoRecognition/buildHistogram.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377000997805" ignored="false" />
+    <file path="/buildVocabulary.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377336713122" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/buildHistogram.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377335960592" ignored="false" />
     <file path="/buildHistogram.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377000992063" ignored="false" />
-    <file path="$PROJECT_DIR$/../VideoRecognition/Utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376979736641" ignored="false" />
-    <file path="/Utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376979734471" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/Utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377339402718" ignored="false" />
+    <file path="/Utility.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377339397796" ignored="false" />
     <file path="/readme.md" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1376992262546" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/JavaTest/src/match.java" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377008562874" ignored="false" />
     <file path="$PROJECT_DIR$/../ComputerVision/VideoOpenCV.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377158982199" ignored="false" />
     <file path="/VideoOpenCV.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377158980936" ignored="false" />
     <file path="$PROJECT_DIR$/../ImageRecognition/EMDTest.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377162692934" ignored="false" />
     <file path="/EMDTest.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377162693245" ignored="false" />
-    <file path="/keyFramesIdentification.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377328649927" ignored="false" />
+    <file path="/keyFramesIdentification.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377340207112" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/CompressVideo.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377336112274" ignored="false" />
+    <file path="/CompressVideo.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377335690484" ignored="false" />
+    <file path="$PROJECT_DIR$/../VideoRecognition/keyFramesIdentification.py" changelist="d4949787-ebc6-416c-85ce-67998b1826fc" time="1377340215454" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,48 +39,37 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="match.py" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/match.py">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="142" column="0" selection-start="3482" selection-end="4103" vertical-scroll-proportion="0.24888226">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="NearDuplicateMatch" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="match.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/match.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="129" column="39" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="keyFramesIdentification.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keyFramesIdentification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="31" selection-start="3526" selection-end="3526" vertical-scroll-proportion="-0.47058824">
+            <state line="90" column="11" selection-start="2072" selection-end="2120" vertical-scroll-proportion="0.3939394">
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
                 <element signature="e#210#1446#0" expanded="false" />
-                <element signature="e#4376#4587#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sift.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sift.py">
+      <file leaf-file-name="utility.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="24" column="17" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,9 +87,9 @@
       <list>
         <option value="$PROJECT_DIR$/sift.py" />
         <option value="$PROJECT_DIR$/pca.py" />
-        <option value="$PROJECT_DIR$/utility.py" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/match.py" />
+        <option value="$PROJECT_DIR$/utility.py" />
         <option value="$PROJECT_DIR$/keyFramesIdentification.py" />
       </list>
     </option>
@@ -329,9 +321,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2326775" sideWeight="0.5060606" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23434857" sideWeight="0.66212124" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4939394" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2326775" sideWeight="0.40729484" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23353294" sideWeight="0.5319149" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.556231" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25085324" sideWeight="0.26595744" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3378788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -417,25 +409,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/keyFramesIdentification.py</url>
-          <line>141</line>
-          <option name="timeStamp" value="37" />
+          <line>156</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/keyFramesIdentification.py</url>
+          <line>222</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/keyFramesIdentification.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/keyFramesIdentification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <element signature="e#210#1446#0" expanded="false" />
-            <element signature="e#4376#4587#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/match.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -459,7 +450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="260" column="0" selection-start="7743" selection-end="7743" vertical-scroll-proportion="8.982709">
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#0#64#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -467,16 +458,6 @@
     <entry file="file://$PROJECT_DIR$/data/crans_1_small.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/temp.sift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pca.py">
@@ -504,27 +485,50 @@
         <state line="49" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="0.7647059" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pcafeature1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/temp.sift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sift.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="5" column="4" selection-start="77" selection-end="77" vertical-scroll-proportion="0.07453416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="3482" selection-end="4103" vertical-scroll-proportion="0.24888226">
+        <state line="129" column="39" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/keyFramesIdentification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="31" selection-start="3526" selection-end="3526" vertical-scroll-proportion="-0.47058824">
+        <state line="90" column="11" selection-start="2072" selection-end="2120" vertical-scroll-proportion="0.3939394">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
             <element signature="e#210#1446#0" expanded="false" />
-            <element signature="e#4376#4587#0" expanded="false" />
           </folding>
         </state>
       </provider>

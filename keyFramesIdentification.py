@@ -88,6 +88,7 @@ class Video:
         vocSize = len(vocabulary)
 
         for imageFeature in SIFTfeatures:
+            imageFeature = util.normalizeSIFT(imageFeature)
             histogram = self.buildHistogram(imageFeature, vocabulary)
             imageHistograms.append(histogram)
 
@@ -140,7 +141,7 @@ class Video:
 
             potentialKeyFrames = self.identifyKeyFrame(clusterFeatures, cluster)
             KEYFRAMES += potentialKeyFrames
-            print cluster +": "+ potentialKeyFrames
+            print str(cluster) +": "+ str(potentialKeyFrames)
 
 
         self.keyFrames = KEYFRAMES

@@ -15,6 +15,15 @@ def normalize(X):
         for j in range(column):
             X[i][j] = (X[i][j] - minValues[i]) * 2.0 / (maxValues[i] - minValues[i])
 
+def normalizeSIFT(descriptor):
+    descriptor = np.array(descriptor)
+    norm = np.linalg.norm(descriptor)
+
+    if norm > 1.0:
+        result = np.true_divide(descriptor, norm)
+
+    return result
+
 def storeObject(fileName, obj):
     file = open(fileName, "w")
     pickle.dump(obj, file)
@@ -24,3 +33,4 @@ def loadObject(fileName):
     file = open(fileName, "r")
     obj = pickle.load(file)
     return obj
+
