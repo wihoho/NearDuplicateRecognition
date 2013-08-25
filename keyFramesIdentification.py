@@ -100,7 +100,7 @@ class Video:
 
         # Cluster frames
         self.numOfFrames = len(imageNames)
-        self.numOfCentriods = int(self.numOfFrames / 6)
+        self.numOfCentriods = int(self.numOfFrames / 10)
 
         kmeans = KMeans(init="k-means++", n_clusters=self.numOfCentriods, n_init=10)
         kmeans.fit(self.imageHistograms)

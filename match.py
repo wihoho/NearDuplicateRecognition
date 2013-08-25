@@ -104,7 +104,7 @@ def plotMatch(im1, im2, locations1, locations2, match):
 
 
     width = im1.shape[1]
-    for m in match[::50]:
+    for m in match[::30]:
         i = m[0]
         j = m[1]
 
