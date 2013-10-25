@@ -45,12 +45,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="keyFramesIdentification.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keyFramesIdentification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="12" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="match.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="22" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.30806845">
+            <state line="86" column="21" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.01898734">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.png" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/sample.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -83,9 +99,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="154" />
-    <option name="width" value="1222" />
+    <option name="x" value="55" />
+    <option name="y" value="22" />
+    <option name="width" value="1225" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -140,11 +156,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -160,7 +176,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.match">
+  <component name="RunManager" selected="Python.keyFramesIdentification">
     <configuration default="false" name="match" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,8 +284,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.match" />
-        <item index="1" class="java.lang.String" itemvalue="Python.keyFramesIdentification" />
+        <item index="0" class="java.lang.String" itemvalue="Python.keyFramesIdentification" />
+        <item index="1" class="java.lang.String" itemvalue="Python.match" />
       </list>
     </recent_temporary>
   </component>
@@ -303,15 +319,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="154" width="1222" height="778" extended-state="0" />
-    <editor active="true" />
+    <frame x="55" y="22" width="1225" height="778" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2326775" sideWeight="0.40729484" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2372449" sideWeight="0.66212124" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.550152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22052588" sideWeight="0.45" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25085324" sideWeight="0.26595744" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3378788" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -415,18 +431,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/match.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file:///Library/Python/2.7/site-packages/numpy-1.8.0.dev_dff8c94_20130602-py2.7-macosx-10.8-intel.egg/numpy/lib/npyio.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="843" column="0" selection-start="26632" selection-end="26632" vertical-scroll-proportion="0.16666667">
@@ -491,14 +495,9 @@
         <state line="5" column="4" selection-start="77" selection-end="77" vertical-scroll-proportion="0.07453416" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keyFramesIdentification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="0" selection-start="5182" selection-end="5182" vertical-scroll-proportion="0.43670887">
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-            <element signature="e#210#1446#0" expanded="false" />
-          </folding>
-        </state>
+    <entry file="file://$PROJECT_DIR$/tmp.pgm">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utility.py">
@@ -508,9 +507,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keyFramesIdentification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="12" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sample.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="22" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.30806845">
+        <state line="86" column="21" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.01898734">
           <folding />
         </state>
       </provider>
